@@ -1,0 +1,110 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=5360, tid=10356
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_21-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.21-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000220f000):  JavaThread "Unknown thread" [_thread_in_vm, id=10356, stack(0x0000000002570000,0x0000000002670000)]
+
+Stack: [0x0000000002570000,0x0000000002670000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000220f000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10356, stack(0x0000000002570000,0x0000000002670000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.008 loading class 0x00000000022cc850 done
+Event: 0.008 loading class 0x0000000002283d80 done
+Event: 0.008 loading class 0x0000000002283d50
+Event: 0.009 loading class 0x00000000022d4a90
+Event: 0.009 loading class 0x00000000022d4a90 done
+Event: 0.009 loading class 0x00000000022d4ad0
+Event: 0.009 loading class 0x00000000022d4ad0 done
+Event: 0.009 loading class 0x000000000e86c380
+Event: 0.009 loading class 0x000000000e86c380 done
+Event: 0.009 loading class 0x0000000002283d50 done
+
+
+Dynamic libraries:
+0x000000013f320000 - 0x000000013f353000 	D:\Program Files\Java\jre7\bin\javaw.exe
+0x0000000077370000 - 0x0000000077519000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077150000 - 0x000000007726f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd400000 - 0x000007fefd46c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff5a0000 - 0x000007feff67b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff120000 - 0x000007feff1bf000 	C:\Windows\system32\msvcrt.dll
+0x000007fefe9b0000 - 0x000007fefe9cf000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007feff470000 - 0x000007feff59d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077270000 - 0x000000007736a000 	C:\Windows\system32\USER32.dll
+0x000007fefe9d0000 - 0x000007fefea37000 	C:\Windows\system32\GDI32.dll
+0x000007fefd590000 - 0x000007fefd59e000 	C:\Windows\system32\LPK.dll
+0x000007fefd5a0000 - 0x000007fefd669000 	C:\Windows\system32\USP10.dll
+0x000007fefa940000 - 0x000007fefab34000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefeb20000 - 0x000007fefeb91000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefeda0000 - 0x000007fefedce000 	C:\Windows\system32\IMM32.DLL
+0x000007fefeba0000 - 0x000007fefeca9000 	C:\Windows\system32\MSCTF.dll
+0x000000006fdf0000 - 0x000000006fec1000 	D:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000006df40000 - 0x000000006e661000 	D:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef7a70000 - 0x000007fef7a79000 	C:\Windows\system32\WSOCK32.dll
+0x000007fefd540000 - 0x000007fefd58d000 	C:\Windows\system32\WS2_32.dll
+0x000007fefed90000 - 0x000007fefed98000 	C:\Windows\system32\NSI.dll
+0x000007fefa410000 - 0x000007fefa44b000 	C:\Windows\system32\WINMM.dll
+0x0000000077540000 - 0x0000000077547000 	C:\Windows\system32\PSAPI.DLL
+0x0000000072e20000 - 0x0000000072e2f000 	D:\Program Files\Java\jre7\bin\verify.dll
+0x000000006fdc0000 - 0x000000006fde8000 	D:\Program Files\Java\jre7\bin\java.dll
+0x00000000685d0000 - 0x0000000068605000 	D:\Program Files\Java\jre7\bin\jdwp.dll
+0x00000000692a0000 - 0x00000000692a8000 	D:\Program Files\Java\jre7\bin\npt.dll
+0x0000000068430000 - 0x0000000068445000 	D:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:51515 -Dfile.encoding=GBK -Xbootclasspath:D:\android-sdk-windows\platforms\android-17\android.jar 
+java_command: com.haifi.abc.ModifyUnityPlayerAccess
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\Program Files\Java\jdk1.7.0_21
+USERNAME=ZhuKunqian
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 12536356k(1566868k free), swap 25070848k(10674860k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.21-b01) for windows-amd64 JRE (1.7.0_21-b11), built on Apr  4 2013 08:11:28 by "java_re" with unknown MS VC++:1600
+
+time: Mon Jan 26 21:32:56 2015
+elapsed time: 0 seconds
+
