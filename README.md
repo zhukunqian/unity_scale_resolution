@@ -1,6 +1,6 @@
-new:
-not compatible with unity5.
-已经和unity5不兼容了
+#new:
+#not compatible with unity5.
+#已经和unity5不兼容了
 
 old:
 # unity_scale_resolution
